@@ -1,0 +1,14 @@
+.about__photo {
+  width: 464px;
+  height: 464px;
+  padding-top: 80px;
+  padding-left: 104px;
+}
+@media screen and (max-width:768px) {
+  .about__photo {
+    width: 232px;
+    height: 232px;
+    padding-top: 61px;
+    padding-left: 40px;
+  }
+}

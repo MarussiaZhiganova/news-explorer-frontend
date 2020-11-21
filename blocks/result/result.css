@@ -1,0 +1,12 @@
+@import url(__content/result__content.css);
+@import url(__image/result__image.css);
+@import url(__text/result__text.css);
+@import url(__description/result__description.css);
+
+.result {
+  max-width: 1440px;
+  min-height: 374px;
+  background: #F5F6F7;
+  margin: 0 auto 0;
+  /* display: none; */
+  }

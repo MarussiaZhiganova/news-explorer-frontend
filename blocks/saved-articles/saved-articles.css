@@ -1,0 +1,15 @@
+@import url(__content/saved-articles__content.css);
+@import url(__title/saved-articles__title.css);
+@import url(__description/saved-articles__description.css);
+@import url(__keywords/saved-articles__keywords.css);
+
+.saved-articles {
+  max-width: 1440px;
+  background-color: #ffffff;
+  padding: 20px 104px;
+}
+@media screen and (min-width: 320px) and (max-width: 730px) {
+   .saved-articles {
+     padding: 8px 16px;
+   }
+}

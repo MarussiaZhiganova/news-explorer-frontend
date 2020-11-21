@@ -1,0 +1,14 @@
+.cards__plase-icon {
+  position: absolute;
+  top: 35px;
+  right: 37px;
+  }
+.cards__plase-icon_delet {
+  right: 34px;
+}
+@media screen and (max-width:768px) {
+  .cards__plase-icon {
+    top: 20px;
+    right: 28px;
+  }
+}

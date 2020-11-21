@@ -1,0 +1,22 @@
+.header__mobile-icon {
+  /* display: none; */
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media screen and (min-width:320px) and (max-width:730px) {
+  .header__mobile-icon {
+      background: url(../../../images/menu.png);
+  }
+  .header__mobile-icon_black {
+      background: url(../../../images/menu-dark.png);
+  }
+}

@@ -1,0 +1,33 @@
+.header__button-auth {
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 176px;
+  height: 48px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+display: none;
+}
+@media screen and (max-width:768px) {
+  .header__button-auth {
+    font-size: 16px;
+    width: 152px;
+    height: 40px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:730px) {
+  .header__button-auth {
+        display: flex;
+        order: 2;
+        align-self: center;
+        align-items: center;
+        padding-left: 14px;
+   }
+  }

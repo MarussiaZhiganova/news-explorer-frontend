@@ -1,0 +1,13 @@
+.cards__plase-rectangle {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  }
+  @media screen and (max-width:768px) {
+    .cards__plase-rectangle {
+      top: 8px;
+      right: 16px;
+    }
+  }

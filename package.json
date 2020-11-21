@@ -1,0 +1,50 @@
+{
+  "name": "news-explorer-frontend",
+  "homepage": "https://github.com/MarussiaZhiganova/news-explorer-frontend",
+  "version": "1.0.0",
+  "description": "diplom-frontend",
+  "main": "src/js/index.js",
+  "scripts": {
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarussiaZhiganova/news-explorer-frontend.git"
+  },
+  "author": "Marussia Zhiganova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarussiaZhiganova/news-explorer-frontend/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.11.6",
+    "@babel/core": "7.11.6",
+    "@babel/preset-env": "7.11.5",
+    "autoprefixer": "10.0.1",
+    "babel-loader": "8.1.0",
+    "cross-env": "7.0.2",
+    "css-loader": "5.0.0",
+    "cssnano": "4.1.10",
+    "file-loader": "6.1.1",
+    "gh-pages": "2.0.1",
+    "html-webpack-plugin": "4.5.0",
+    "image-webpack-loader": "7.0.1",
+    "mini-css-extract-plugin": "1.0.0",
+    "nodemon": "2.0.4",
+    "optimize-css-assets-webpack-plugin": "5.0.4",
+    "postcss-loader": "4.0.4",
+    "style-loader": "2.0.0",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0",
+    "webpack-md5-hash": "0.0.6"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "core-js": "3.4.1",
+    "jquery": "3.5.1",
+    "path": "0.12.7"
+  }
+}

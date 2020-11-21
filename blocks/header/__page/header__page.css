@@ -1,0 +1,27 @@
+.header__page {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 32px 0 0;
+}
+.header__page_black {
+  color: #1A1B22;
+}
+@media screen and (max-width:768px) {
+  .header__page {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:730px) {
+.header__page {
+  line-height: 56px;
+  padding-left: 16px;
+ }
+ .header__page_black {
+  color: #FFFFFF;
+ }
+}

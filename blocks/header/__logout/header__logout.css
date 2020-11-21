@@ -1,0 +1,13 @@
+.header__logout {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  right: 25px;
+}
+@media screen and (max-width:768px) {
+  .header__logout {
+    top: 8px;
+    right: 25px;
+  }
+}

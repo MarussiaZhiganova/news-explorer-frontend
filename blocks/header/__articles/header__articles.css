@@ -1,0 +1,28 @@
+.header__articles {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #b6bcbf;
+  text-decoration: none;
+  width: 178px;
+  /* display: none; */
+}
+.header__articles_black {
+  color: #1A1B22;
+}
+@media screen and (max-width:768px) {
+  .header__articles {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:730px) {
+  .header__articles {
+    line-height: 56px;
+    padding-left: 16px;
+    color: #FFFFFF;
+    display: flex;
+    order: 1;
+   }
+  }
