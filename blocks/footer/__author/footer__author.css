@@ -12,5 +12,6 @@
     display: flex;
     order: 3;
     padding-left: 0;
+    min-width: 288px;
   }
 }

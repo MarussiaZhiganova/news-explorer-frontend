@@ -5,4 +5,21 @@
   font-size: 16px;
   line-height: 22px;
   color: #1A1B22;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  .cards__plase-subtitle {
+     -webkit-line-clamp: 5;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .cards__plase-subtitle {
+      -webkit-line-clamp: 4;
+  }
 }

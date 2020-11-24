@@ -23,12 +23,24 @@
       height: 56px;
     }
   }
-@media screen and (min-width: 320px) and (max-width: 730px) {
+
+  @media screen and (max-width:500px) {
+    .search__button {
+        position: relative;
+        height: 56px;
+        width: 288px;
+        margin: 16px 16px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
   .search__button {
     position: relative;
         height: 56px;
         width: 288px;
         margin-top: 16px;
         margin-left: 16px;
+        margin-bottom: 0;
   }
 }

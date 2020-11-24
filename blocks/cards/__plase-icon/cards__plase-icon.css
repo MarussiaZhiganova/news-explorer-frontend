@@ -3,12 +3,23 @@
   top: 35px;
   right: 37px;
   }
+.cards__plase-icon:hover {
+  background-color: #2F71E5;
+}
 .cards__plase-icon_delet {
   right: 34px;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1380px){
+  .cards__plase-icon {
+    top: 34px;
+    right: 18px;
+  }
+}
+
 @media screen and (max-width:768px) {
   .cards__plase-icon {
     top: 20px;
-    right: 28px;
+    right: 18px;
   }
 }

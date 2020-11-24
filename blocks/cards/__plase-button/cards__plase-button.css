@@ -17,9 +17,15 @@ border-radius: 10px;
 cursor: pointer;
 border: none;
 }
+@media screen and (min-width: 769px) and (max-width: 1380px){
+  .cards__plase-button {
+    top: 24px;
+    right: 46px;
+  }
+}
 @media screen and (max-width:768px) {
   .cards__plase-button {
     top: 8px;
-    right: 60px;
+    right: 48px;
   }
 }

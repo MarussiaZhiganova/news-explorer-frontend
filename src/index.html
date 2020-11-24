@@ -36,7 +36,7 @@
       <h1 class="search__title">Что творится в мире?</h1>
       <p class="search__subtitle">Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.</p>
       <form class="search__field" name="search">
-      <input class="search__input" type="text" name="search" placeholder="Введите тему новости">
+      <input required class="search__input" type="text" name="searchinput" placeholder="Введите тему новости">
       <button class="search__button" type="button">Искать</button>
       </form>
       </div>
@@ -47,8 +47,8 @@
     <div class="cards__container">
       <div class="cards__plase">
       <img class="cards__plase-image" alt="flowers" src="../images/image_08.png">
-      <img class="cards__plase-rectangle" alt="rectangle" src="../images/Rectangle 6.png">
-      <img class="cards__plase-icon" alt="rectangle" src="../images/Rectangle 8.png">
+      <img class="cards__plase-rectangle" alt="rectangle" src="../images/Rectangle6.png">
+      <img class="cards__plase-icon" alt="rectangle" src="../images/Rectangle8.png">
       <div class="cards__plase-content">
       <p class="cards__plase-date">2 августа, 2019</p>
       <h3 class="cards__plase-title">Национальное достояние – парки</h3>
@@ -59,8 +59,8 @@
       </div>
       <div class="cards__plase">
         <img class="cards__plase-image" alt="flowers" src="../images/image_04.png">
-        <img class="cards__plase-rectangle" alt="rectangle" src="../images/Rectangle 6.png">
-        <img class="cards__plase-icon" alt="rectangle" src="../images/Rectangle 8.png">
+        <img class="cards__plase-rectangle" alt="rectangle" src="../images/Rectangle6.png">
+        <img class="cards__plase-icon" alt="rectangle" src="../images/Rectangle8.png">
         <div class="cards__plase-content">
         <p class="cards__plase-date">2 августа, 2019</p>
         <h3 class="cards__plase-title">Лесные огоньки: история одной фотографии</h3>
@@ -71,8 +71,8 @@
       </div>
       <div class="cards__plase">
         <img class="cards__plase-image" alt="flowers" src="../images/image_07.png">
-        <img class="cards__plase-rectangle" alt="rectangle" src="../images/Rectangle 6.png">
-        <img class="cards__plase-icon" alt="rectangle" src="../images/Rectangle 8.png">
+        <img class="cards__plase-rectangle" alt="rectangle" src="../images/Rectangle6.png">
+        <img class="cards__plase-icon" alt="rectangle" src="../images/Rectangle8.png">
         <button type="submit" class="cards__plase-button">Войдите, чтобы сохранять статьи</button>
         <div class="cards__plase-content">
         <p class="cards__plase-date">2 августа, 2019</p>
@@ -162,7 +162,7 @@
        </div>
        <div>
       <div class="popup__name">Имя</div>
-      <input required minlength="2" maxlength="30" type="name" name="name" class="popup__input popup__input_type_name" placeholder="Введите своё имя">
+      <input required minlength="2" maxlength="30" type="text" name="name" class="popup__input popup__input_type_name" placeholder="Введите своё имя">
       <p  class="error-message"></p>
       <button type="submit" class="button popup__button_disabled popup__button">Зарегистрироваться</button>
       </div>
@@ -183,7 +183,7 @@
   </div>
 
 </div>
-  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  <script src="htmlWebpackPlugin.files.js"></script>
 </body>
 
 </html>

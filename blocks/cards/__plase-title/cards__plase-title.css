@@ -7,6 +7,12 @@
   color: #1A1B22;
   margin-top: 0px;
 }
+@media screen and (min-width: 769px) and (max-width: 1380px){
+  .cards__plase-title {
+    font-size: 22px;
+    line-height: 24px;
+  }
+}
 @media screen and (max-width:768px) {
   .cards__plase-title {
     font-size: 22px;

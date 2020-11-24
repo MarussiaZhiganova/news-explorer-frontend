@@ -20,6 +20,14 @@
   color: #000000;
   border-radius: 10px;
 }
+
+@media screen and (min-width: 767px) and (max-width: 1380px) {
+ .cards__plase-message {
+    top: 24px;
+    right: 60px;
+ }
+}
+
 @media screen and (max-width:768px) {
   .cards__plase-message {
     top: 8px;

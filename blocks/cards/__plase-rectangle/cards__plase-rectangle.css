@@ -5,9 +5,15 @@
   top: 24px;
   right: 24px;
   }
+  @media screen and (min-width: 769px) and (max-width: 1380px){
+    .cards__plase-rectangle {
+      top: 24px;
+      right: 5px;
+    }
+  }
   @media screen and (max-width:768px) {
     .cards__plase-rectangle {
       top: 8px;
-      right: 16px;
+      right: 5px;
     }
   }
