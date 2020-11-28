@@ -135,7 +135,12 @@
     <a class="footer__icon" href="https://github.com" target="_blank">
     <img alt="ссылка на гитхаб" src="../images/Vector.png"></a>
     <a class="footer__icon" href="https://www.facebook.com/" target="_blank">
-    <img alt="ccылка на фейсбук" src="../images/facebook.png"></a>
+    <picture>
+      <source srcset="../images/Subtract.png 1x, ../images/Subtract2x.png 2x" media="(max-width: 768px)">
+      <source srcset="../images/facebook.png 1x, ../images/facebook2x.png 2x" media="(max-width: 320px)">
+      <img src="../images/facebook.png" srcset="../images/facebook2x.png 2x" alt="ccылка на фейсбук">
+    </picture>
+    </a>
     </div>
     </nav>
   </footer>

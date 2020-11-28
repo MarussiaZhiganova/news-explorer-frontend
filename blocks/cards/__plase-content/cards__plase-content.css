@@ -1,3 +1,12 @@
 .cards__plase-content {
   padding: 20px 24px 24px 24px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 730px) {
+  .cards__plase-content {
+    width: 200px;
+    border-radius: 0 0 10px 10px;
+  }
 }

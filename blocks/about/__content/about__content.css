@@ -1,6 +1,7 @@
 .about__content {
   max-width: 600px;
   margin: 131px auto auto 56px;
+
 }
 @media screen and (max-width:768px) {
   .about__content {

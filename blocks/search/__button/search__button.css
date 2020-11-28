@@ -16,22 +16,51 @@
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+  .search__button:hover {
+    background: #347EFF;
+    border: none;
   }
-  @media screen and (max-width:768px) {
+
+  .search__button:active {
+    background: #2A65CC;
+    border: none;
+  }
+
+@media screen and (max-width:768px) {
     .search__button {
       width: 160px;
       height: 56px;
     }
-  }
+    .search__button:hover {
+      background: #347EFF;
+      border: none;
+    }
 
-  @media screen and (max-width:500px) {
+    .search__button:active {
+      background: #2A65CC;
+      border: none;
+    }
+}
+
+@media screen and (max-width:500px) {
     .search__button {
         position: relative;
         height: 56px;
         width: 288px;
         margin: 16px 16px;
         margin-bottom: 0;
-    }
+      }
+      .search__button:hover {
+        background: #347EFF;
+        border: none;
+      }
+
+      .search__button:active {
+        background: #2A65CC;
+        border: none;
+      }
 }
 
 @media screen and (max-width: 320px) {
@@ -40,7 +69,16 @@
         height: 56px;
         width: 288px;
         margin-top: 16px;
-        margin-left: 16px;
+        margin-left: 0;
         margin-bottom: 0;
+  }
+  .search__button:hover {
+    background: #347EFF;
+    border: none;
+  }
+
+  .search__button:active {
+    background: #2A65CC;
+    border: none;
   }
 }

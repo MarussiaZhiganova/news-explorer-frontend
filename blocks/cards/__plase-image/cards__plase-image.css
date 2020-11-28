@@ -3,19 +3,19 @@
 }
 @media screen and (max-width: 1380px) {
   .cards__plase-image {
-    object-fit: cover;
-    max-width: 100%;
+      object-fit: cover;
+      max-width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
   .cards__plase-image {
-    object-fit: cover;
-    max-width: 100%;
+    /* object-fit: cover;
+    max-width: 100%; */
   }
 }
 @media screen and (min-width: 320px) and (max-width: 730px) {
   .cards__plase-image {
-    object-fit: cover;
-    max-width: 100%;
+    width: 288px;
+    height: 196px;
   }
 }

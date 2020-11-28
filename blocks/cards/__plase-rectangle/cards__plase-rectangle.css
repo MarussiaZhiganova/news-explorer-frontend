@@ -14,6 +14,13 @@
   @media screen and (max-width:768px) {
     .cards__plase-rectangle {
       top: 8px;
-      right: 5px;
+      right: 8px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .cards__plase-rectangle {
+     top: 8px;
+     right: 8px;
     }
   }

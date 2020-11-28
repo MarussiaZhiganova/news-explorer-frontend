@@ -1,7 +1,8 @@
 .header__label {
   display: none;
 }
-@media screen and (min-width: 320px) and (max-width: 730px) {
+/* @media screen and (min-width: 320px) and (max-width: 730px) { */
+@media screen and (max-width:750px) {
   .header__label {
     display: block;
     width: 24px;

@@ -7,4 +7,11 @@
   bottom: 0px;
   right: 0px;
   border-radius: 10px;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 730px) {
+  .cards__plase {
+  margin: 0 -16px;
+  }
 }

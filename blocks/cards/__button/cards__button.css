@@ -12,11 +12,29 @@ line-height: 24px;
 color: #1A1B22;
 border: none;
 cursor: pointer;
+border: none;
+outline: none;
 }
+
+.cards__button:hover {
+  opacity: 0.9;
+}
+
 @media screen and (max-width:768px) {
   .cards__button  {
   width: 240px;
   height: 56px;
   margin: 0 auto;
+  }
+  .cards__button:hover {
+    opacity: 0.9;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cards__button {
+   margin-left: 16px;
+  }
+  .cards__button:hover {
+    opacity: 0.9;
   }
 }

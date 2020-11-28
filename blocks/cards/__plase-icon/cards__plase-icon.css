@@ -20,6 +20,17 @@
 @media screen and (max-width:768px) {
   .cards__plase-icon {
     top: 20px;
-    right: 18px;
+    right: 21px;
+  }
+}
+
+@media screen and (max-width: 320px) and (max-width: 768px) {
+  .cards__plase-icon {
+    top: 18px;
+    right: 20px;
+  }
+  .cards__plase-icon_delet {
+    top: 18px;
+    right: 19px;
   }
 }

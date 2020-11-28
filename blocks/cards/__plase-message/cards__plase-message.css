@@ -30,7 +30,8 @@
 
 @media screen and (max-width:768px) {
   .cards__plase-message {
-    top: 8px;
-    right: 60px;
+    /* top: 9px;
+    right: 60px; */
+    display: none;
   }
 }

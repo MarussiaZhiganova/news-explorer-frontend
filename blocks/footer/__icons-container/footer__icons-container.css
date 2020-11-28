@@ -1,7 +1,6 @@
 .footer__icons-container {
   display: flex;
   flex-direction: row;
-  margin: 0 0 0 0;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1380px){
@@ -10,15 +9,10 @@
   }
 }
 
-@media screen and (max-width:768px) {
-  .footer__icons-container {
-    margin: 0 0 0 5px;
-  }
-}
 @media screen and (min-width: 320px) and (max-width: 730px) {
   .footer__icons-container {
    order: 2;
    margin-top: 10px;
-   margin-left: 68px;
+   margin-left: 20px;
   }
 }

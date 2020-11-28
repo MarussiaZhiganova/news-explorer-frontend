@@ -19,9 +19,17 @@
   line-height: 24px;
   color: #000000;
 }
+
+@media screen and (min-width: 767px) and (max-width: 1380px) {
+  .cards__plase-keyword {
+     top: 24px;
+     left: 24px;
+  }
+ }
+
 @media screen and (max-width:768px) {
   .cards__plase-keyword {
     top: 8px;
-    right: 16px;
+   left: 8px;
   }
 }
